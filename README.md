@@ -6,4 +6,4 @@ MySql Workbench (8.0 or later)
 Python (3.6 or later)
 
 After installing above requirements
-install requirements.txt file ('pip install requirements.txt')
+install requirements.txt file using default terminal ('pip install -r requirements.txt')
