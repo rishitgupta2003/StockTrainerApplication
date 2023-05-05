@@ -7,3 +7,5 @@ Python (3.6 or later)
 
 After installing above requirements
 install requirements.txt file using default terminal ('pip install -r requirements.txt')
+
+Note : A Stable Internet Connection is must as the stock graphs and their current prices are real time
