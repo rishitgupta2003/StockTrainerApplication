@@ -133,6 +133,7 @@ def sellStock(userid , price , shares , sa , Stock_Symbol):
     val = (userid , Stock_Symbol , price , shares , cost)
     mc.execute(sql,val)
     db.commit()
+    session['amount'] = new_balance
     msg = 'Transaction Successfull'
     return msg
 
@@ -316,6 +317,7 @@ def buyShare(stock_symbol):
         if((float)(balance[0]) >= (float)(cost)):  
             new_balance = (float)(balance[0]) - (float)(cost)
             msg = buyStock(session['id'] , stock_symbol , price , shares , cost , new_balance)
+            session['amount'] = new_balance
         else:
             msg = "NOT ENOUGH BALANCE"
                      
