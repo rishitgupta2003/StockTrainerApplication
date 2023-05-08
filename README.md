@@ -7,5 +7,6 @@ Python (3.6 or later)
 
 After installing above requirements
 install requirements.txt file using default terminal ('pip install -r requirements.txt')
+Open app.py in any IDE and Set database password to your MySql password. (at line : 17)
 
 Note : A Stable Internet Connection is must as the stock graphs and their current prices are real time
