@@ -12,6 +12,9 @@ Download the src folder to use
 
 Open app.py in any IDE and Set database password to your MySql password. (at line : 17)
 
+![Step - 0](https://github.com/rishitgupta2003/StockTrainerApplication/assets/69597366/2e1161d0-bc42-4dac-8890-6ac1b2e10e10)
+Change Password here (Don't Remove Inverted Commas (' '))
+
 Import StockData.sql file in MySQL.
 
 ![Step - 1](https://github.com/rishitgupta2003/StockTrainerApplication/assets/69597366/01743518-bb23-46a2-9975-0b98695cf745)
@@ -24,7 +27,7 @@ Click on New
 Enter Name : project and hit Ok
 
 ![Step - 4](https://github.com/rishitgupta2003/StockTrainerApplication/assets/69597366/b6e2c027-35a1-4e9b-8161-02fbcb770319)
-Click on Path(...) button
+Click on Path(...) button and Choose path where stockData.sql file is present
 
 ![Step - 5](https://github.com/rishitgupta2003/StockTrainerApplication/assets/69597366/45b0f4d0-49f4-48c4-8dae-a4ac953cee63)
 Click on Load Folder Content
