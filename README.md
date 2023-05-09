@@ -6,7 +6,9 @@ MySql Workbench (8.0 or later)
 Python (3.6 or later)
 
 After installing above requirements
+
 Download the src folder to use
+
 install requirements.txt file using default terminal ('pip install -r requirements.txt')
 
 Open app.py in any IDE and Set database password to your MySql password. (at line : 17)
