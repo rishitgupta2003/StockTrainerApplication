@@ -13,6 +13,7 @@ Download the src folder to use
 Open app.py in any IDE and Set database password to your MySql password. (at line : 17)
 
 ![Step - 0](https://github.com/rishitgupta2003/StockTrainerApplication/assets/69597366/2e1161d0-bc42-4dac-8890-6ac1b2e10e10)
+
 Change Password here (Don't Remove Inverted Commas (' '))
 
 Import StockData.sql file in MySQL.
