@@ -1,0 +1,30 @@
+{% extends 'BST_Template.html' %}
+
+{% block content %}
+
+<div class="alert alert-success" role="alert">
+    <p>If Buy Button is disabled / Graph is empty , then Market is closed for today</p>
+    <p>{{ msg }}</p>
+</div>
+
+<div class="container">
+    <script>
+        var plotDiv = document.getElementById('plot');
+        var plot = '{{ plot|safe }}'
+    </script>
+</div>
+
+<div class="container">
+    <p>Current Price - ₹{{ price }}</p>
+</div>
+
+<div class="container">
+    <form method="POST" action="/home/buyList/{{ stock_symbol }}">
+        <div class="input-group mb-3">
+            <input type="number" name="BuyQuant" name="quantity" placeholder="Quantity" min="1" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+            <button class="btn btn-outline-secondary" type="submit" id="button-addon2">BUY</button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
